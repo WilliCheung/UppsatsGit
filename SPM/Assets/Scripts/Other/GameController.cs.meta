@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 92e769a15bbd8cd4baacb28296b17bba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {fileID: 8279343510140872614, guid: b8a168c850e19644b90513ee279db5d2,
+      type: 3}
+  - HealthSlider: {instanceID: 0}
+  - ArmorSlider: {instanceID: 0}
+  - SlowmotionSlider: {instanceID: 0}
+  - ReloadSlider: {instanceID: 0}
+  - weaponNameText: {instanceID: 0}
+  - weaponAmmoText: {instanceID: 0}
+  - pR: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

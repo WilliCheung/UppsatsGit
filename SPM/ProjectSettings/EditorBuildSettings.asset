@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2a8095a4807fed443809910f383cbb8d
+  - enabled: 1
+    path: Assets/Scenes/Level1WhiteBoxArea.unity
+    guid: 245291a6088310049bdc2782d46bfea1
+  - enabled: 1
+    path: Assets/Scenes/Level2WhiteBox.unity
+    guid: 941e24bcfc406b74f86fb0ee4468e6d6
+  m_configObjects: {}

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1757674643375919205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3365157521189228802}
+  - component: {fileID: 1977375461835904690}
+  - component: {fileID: -4835157186327209583}
+  m_Layer: 0
+  m_Name: WeaponController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3365157521189228802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757674643375919205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.03, y: 0.98, z: 0.56}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1977375461835904690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757674643375919205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e8f1bc44a19f804ab5ba413981ffb6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RocketLaucherProjectileGO: {fileID: 7671732461942476493, guid: 83569c49e9c76d54db06eeb7c6a8b83c,
+    type: 3}
+  EnemyWeaponProjectileGO: {fileID: 3562466059938556156, guid: e42980ce9347478458400597af6fc035,
+    type: 3}
+  Crosshair:
+  - {fileID: 21300000, guid: 27bd57c3d6936ab4a80e2cc0e16fe856, type: 3}
+  - {fileID: 21300000, guid: af0d78a039069af4a838fe7438346926, type: 3}
+  - {fileID: 21300000, guid: 46728143cdec4fd4380e7ca6e4ae0ed9, type: 3}
+  rifleDmg: 7.5
+  shotgunDmg: 19
+  rocketLDmg: 35
+  rifleClipMaxAmmo: 50
+  shotgunClipMaxAmmo: 8
+  rocketLClipMaxAmmo: 3
+  rifleTotalAmmoStart: 500
+  shotgunTotalAmmoStart: 80
+  rocketLTotalAmmoStart: 9
+--- !u!114 &-4835157186327209583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757674643375919205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393cb5e0973ab1d46aef4d5bf7f26d0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switchWeaponTime: 0.2
+  swayAmount: 0.01
+  maxSwayAmount: 0.03
+  swaySmoothAmount: 10
+  bobbingSpeed: 0.2
+  bobbingAmount: 0.05
+  Rifle: {fileID: 0}
+  Shotgun: {fileID: 0}
+  RocketLauncher: {fileID: 0}
+  rifleOutOfScreen: {fileID: 0}
+  shotgunOutOfScreen: {fileID: 0}
+  rocketLauncherOutOfScreen: {fileID: 0}
+  rifleInScreen: {fileID: 0}
+  shotgunInScreen: {fileID: 0}
+  rocketLauncherInScreen: {fileID: 0}
+  rifleFlash: {fileID: 0}
+  shotgunFlash: {fileID: 0}
+  rocketFlash: {fileID: 0}
+  x: 0
+  y: 0
+  z: 0
+  w: 0
